@@ -1,0 +1,53 @@
+.ferramenta-main{
+    background-color: white;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    padding: 4rem ;
+}
+
+.ferrament-titulo{
+    display: flex;
+    gap: 1rem;
+}
+
+.fCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0072ff;
+    margin-top: 0.8rem;
+}
+
+.itens-ferramentas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.itens{
+    width: 30rem;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 1rem 1rem 2rem;
+
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+}
+
+.numero-f{
+    color: #0072ff;
+    font-size: 2rem;
+    
+}
+
+.h1-ferramenta{
+   padding-top: 0.3rem;
+   font-size: 1.8rem;
+   padding-bottom: 1rem;
+}
+
+.p-ferramenta{
+    font-size: clamp(1rem, 4vw, 1.1rem);
+}

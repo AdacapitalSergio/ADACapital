@@ -45,7 +45,7 @@ export default function Header() {
 
         <ul className="navList">
           <li><Link to="/#" className="navLi">Portfólio</Link></li>
-          <li><Link to="/#" className="navLi">Talento</Link></li>
+          <li><Link to="/talentos" className="navLi">Talento</Link></li>
           <li><Link to="/#" className="navLi">Perspectivas</Link></li>
           <li><Link to="/#" className="navLi">Contacto</Link></li>
           <li><Link to="/#" className="navLi loginBorder">Login</Link></li>

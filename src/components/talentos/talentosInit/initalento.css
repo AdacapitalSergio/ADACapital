@@ -1,0 +1,67 @@
+.talentos-main{
+    height: rem;
+    background: linear-gradient(135deg, #020308, #071320);
+    padding-bottom: 2rem;
+
+}
+
+.container {
+    position: absolute;
+    width: 35rem;
+    height: 25rem;
+    bottom: 5rem;
+    right:  0;
+}
+
+.square {
+    position: absolute;
+    border: 1px solid #0072ff;
+    
+}
+.square-1  { width: 34rem; height: 34rem; top: 0; left: 0; }
+.square-2  { width: 30rem; height: 30rem; top: 2rem; left: 2rem; }
+.square-3  { width: 26rem; height: 26rem; top: 4rem; left: 4rem; }
+.square-4  { width: 22rem; height: 22rem; top: 6rem; left: 6rem; }
+.square-5  { width: 18rem; height: 18rem; top: 8rem; left: 8rem; }
+.square-6  { width: 15rem; height: 15rem; top: 9.5rem; left: 9.5rem; }
+.square-7  { width: 12rem; height: 12rem; top: 11rem; left: 11rem; }
+.square-8  { width: 9rem; height: 9rem; top: 12.5rem; left: 12.5rem; }
+.square-9  { width: 6rem; height: 6rem; top: 14rem; left: 14rem; }
+.square-10 { width: 3rem; height: 3rem; top: 15.5rem; left: 15.5rem; }
+
+
+.talento-titulo{
+    position: relative;
+    font-size: 1.8rem;
+    padding: 10rem 32rem 0rem 5rem;
+    color: white;
+}
+
+.talento-start{
+    position: relative;
+    display: flex;
+    color: white;
+    gap: 5rem;
+    padding: 6rem 10rem 0rem 5rem;
+}
+
+.start{
+    display: flex;
+    gap: 1rem;
+    width: 29rem;
+}
+
+.pCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0072ff;
+    margin-top: 0.4rem;
+}   
+.start2 .h1-talento{
+   font-size: 3rem;
+   padding-bottom: 1rem;
+}
+.p-talento{
+    font-size: clamp(1rem, 4vw, 1.5rem);
+}
