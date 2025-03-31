@@ -7,68 +7,135 @@
 .mainSecondHome {
     width: 100%;
     padding: 6rem 0;
-    display: flex;
     justify-content: center;
     gap: 3rem;
-    background-color: #eee;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(135deg, #020308, #071320);
+    overflow: hidden;
+    position: relative;
 }
 
-.asideLeftSecondHome {
-    width: 20rem;
+.articleSecondHome {
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    gap: 10rem;
+    margin: 1em 0 2rem 8%;
+}
+
+.divtitle {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+.spanCircle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0072ff;
+    margin-top: 0.4rem;
 }
 
 .asideLeftSecondHomeH1 {
-    font-size: 2.5rem;
-    font-weight: 100;
-    color: #000;
-    letter-spacing: normal;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #fff;
     margin-bottom: 1.6rem;
+    z-index: 90;   
 }
 
 .asideLeftSecondHomeP {
-    font-size: 19px;
-    color: #333;
-}
-
-.asideRightSecondHome {
-    border-left: #000 1px solid;
-}
-
-.articleSecondMain {
-    border-bottom: #000 1px solid;
-    width: 22rem;
-}
-
-.divSecondMain {
-    display: flex;
-}
-
-.spanSecondMain {
-    margin-left: 3.5rem;
-    color: #222;
-    font-size: 1.2rem;
-    font-weight: 300;
-}
-.articleSecondMainH2 {
-    margin-left: 1.4rem;
-    color: #222;
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 1.2rem;
-}
-
-.articleSecondMainP {
-    margin-left: 5.5rem;
-    color: #222;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: #fff;
+    z-index: 90;
+    width: 42rem;
     margin-bottom: 4rem;
 }
 
-.marginTop {
-    margin-top: 4rem;
+.spanSecondMain {
+    margin-left: 10rem;
+    color: #0072ff;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+    justify-content: start;
+}
+
+.divArticleContent {
+    z-index: 90;
+    width: 42rem;
+    border-bottom: #0072ff 1px solid;
+}
+
+.articleSecondMainH2 {
+    margin-left: 1.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+}
+
+.articleSecondMainP {
+    margin-left: 1.4rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
 }
 
 .noneBorderBotton {
     border-bottom: none;
 }
+
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circleContainer {
+    position: absolute;
+    right: 1%;
+    top: 27%;
+    transform: translate(50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCircle1,
+.divCircle2,
+.divCircle3 {
+    position: absolute;
+    border: #013575 dashed 2px;
+    border-radius: 50%;
+    animation: rotateCircle 200s linear infinite;
+}
+
+.divCircle1 {
+    width: 44rem;
+    height: 44rem;
+    right: 4rem;
+}
+
+.divCircle2 {
+    width: 38rem;
+    height: 38rem;
+    margin-top: 1rem;
+    right: 7rem;
+}
+
+.divCircle3 {
+    width: 32rem;
+    height: 32rem;
+    margin-top: 2rem;
+    right: 10rem;
+}
+
