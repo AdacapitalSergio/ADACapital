@@ -1,10 +1,11 @@
 import React from 'react'
 import "./missao.css"
+import Animacao from '../../Animacao/Animacao'
 
 export const Missao = () => {
   return (
     <div className='missao-main'>
-               
+               <Animacao />
                <div className='missa-titulo'>
                     <p className="fCircle"></p>
                     <h2>Nossa  Missão</h2>
