@@ -1,0 +1,86 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.seccao {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  padding: 5rem 2rem;
+
+}
+
+
+.texto-branco {
+  color: white;
+}
+
+.data {
+  align-self: flex-start;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+}
+
+.texto-verde {
+  color: #32CD32;
+  font-size: 1rem;
+}
+
+.titulo {
+  align-self: flex-start;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+  max-width: 45rem; 
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.texto-grande {
+  font-size: 3rem;
+  width: 100px;
+
+}
+
+.descricao {
+  max-width: 29rem;
+  font-size: 1pt;
+  margin-left: 25%;
+ 
+}
+
+.margem-topo {
+  margin-top: 1rem;
+}
+
+.texto-medio {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.largura-maxima {
+  max-width: 40rem;
+}
+.seccao1 {
+  background-color: black;
+  margin-top: 100px;
+}
+.seccao2 {
+  background-color: #dbdbdb;
+ 
+}
+.seccao3 {
+  background-color: #ffffff;
+}
+.seccao4{
+  background-color: black;
+  height: 120vh;
+}
+.texto-preto {
+  color: #242323;
+}
