@@ -3,7 +3,7 @@ import "./ferramentas.css"
 
 export const Ferramentas = () => {
   return (
-    <div className='ferramenta-main'>
+    <div className='section ferramenta-main'>
 
                 <div className='ferrament-titulo'>
                     <p className="fCircle"></p>

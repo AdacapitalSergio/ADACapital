@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <>
       <nav className="navBar" style={{ backgroundColor: navBackground }}>
-        <Link to="/#">
+        <Link to="/">
           <img src={logoAdaBranco} alt="Logotipo da AdaCapital" className="logotipo" />
         </Link>
 
@@ -47,7 +47,7 @@ export default function Header() {
           <li><Link to="/#" className="navLi">Portfólio</Link></li>
           <li><Link to="/talentos" className="navLi">Talento</Link></li>
           <li><Link to="/perpectiva" className="navLi">Perspectivas</Link></li>
-          <li><Link to="/#" className="navLi">Contacto</Link></li>
+          <li><Link to="/contactos" className="navLi">Contacto</Link></li>
           <li><Link to="/#" className="navLi loginBorder">Login</Link></li>
         </ul>
       </nav>
