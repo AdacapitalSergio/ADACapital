@@ -24,3 +24,104 @@
 .p-missao{
     font-size: clamp(1rem, 4vw, 1.5rem);
 }
+
+@media (max-width: 1500px) {
+    
+.missao{
+    padding: 0rem 6rem 10rem 6rem;
+}
+    
+}
+
+@media (max-width: 1200px) {
+    
+    .missao{
+        padding: 0rem 3rem 10rem 3rem;
+        
+    }
+        
+    }
+
+@media (max-width: 1000px) {
+        .missao{
+            padding: 0rem 1rem 6rem 3rem;
+        }
+ }
+
+ @media (max-width: 774px) {
+    .missao{
+        padding: 0rem 1rem 6rem 1rem;
+       
+    }
+}
+
+@media (max-width: 596px) {
+    .missao{
+        padding: 0rem 1rem 6rem 1rem;
+    }
+
+    .h1-missao{
+        font-size: clamp(1rem, 4vw, 1.4rem);
+        padding-bottom: 1rem;
+    
+    }
+.p-missao{
+    font-size: clamp(1rem, 4vw, 1.2rem);
+}
+}
+
+
+@media (max-width: 585px) {
+    .missao{
+        padding: 0rem 0.2rem 6rem 1rem;
+    }
+
+    .h1-missao{
+        font-size: clamp(1rem, 4vw, 1.4rem);
+        padding-bottom: 2rem;
+    
+    }
+.p-missao{
+    font-size: clamp(1rem, 4vw, 1rem);
+}
+}
+
+
+@media (max-width: 545px) {
+
+    .missao-main{
+        padding-bottom: 1rem;
+
+    }
+    .missao{
+        padding: 0rem 0.2rem 6rem 1rem;
+    }
+
+    .h1-missao{
+        font-size: clamp(1rem, 4vw, 1.1rem);
+        padding-bottom: 2rem;
+    
+    }
+.p-missao{
+    font-size: clamp(1rem, 4vw, 1rem);
+}
+}
+
+
+@media (max-width: 505px) {
+
+    .missao{
+        padding: 0rem 0.1rem 6rem 1rem; 	
+    }
+
+    .h2-cicle{
+        font-size: 1rem;
+    }
+
+    .h1-missao{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    
+    }
+
+}

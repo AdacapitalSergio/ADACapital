@@ -8,7 +8,7 @@ export const Missao = () => {
                <Animacao />
                <div className='missa-titulo'>
                     <p className="fCircle"></p>
-                    <h2>Nossa  Missão</h2>
+                    <h2 className='h2-cicle'>Nossa  Missão</h2>
                 </div>
 
                 <div className="missao">

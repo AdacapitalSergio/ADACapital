@@ -44,10 +44,24 @@
 
 .h1-ferramenta{
    padding-top: 0.3rem;
-   font-size: 1.8rem;
+   font-size: clamp(0.8rem, 4vw, 1.8rem);
    padding-bottom: 1rem;
 }
 
 .p-ferramenta{
-    font-size: clamp(1rem, 4vw, 1.1rem);
+    font-size: clamp(0.8rem, 4vw, 1.1rem);
+    
+}
+
+
+@media (max-width:540px) {
+
+    .h1-ferramenta{
+        font-size:1.1rem;
+     }
+
+     .p-ferramenta{
+        font-size: 0.9rem;
+        
+    }
 }
