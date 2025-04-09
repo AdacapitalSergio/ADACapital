@@ -10,9 +10,9 @@
     position: fixed;
     display: flex;
     align-items: center;
-    z-index: 100;
+    z-index: 999;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     position: fixed;
     top: 0;
     left: 50%;
@@ -21,8 +21,8 @@
 }
 
 .logotipo {
-    width: 115px;
-    margin-left: 11rem;
+    width: 110px;
+    margin-left: 8rem;
 }
 
 .navList {
@@ -48,9 +48,9 @@
 }
 
 .loginBorder {
-    border: #ccc 2px solid;
-    border-radius: 6px;
-    padding: 1rem 0.5em;
+    color: #bbb;
+    font-size: 24px;
+    transition: all 0.5s;
 }
 
 .loginBorder:hover {
@@ -66,4 +66,108 @@
     margin-left: 50%;
     transform: translateX(-50%);
     z-index: 100;
+}
+
+.menuToggle {
+  display: none;
+  font-size: 28px;
+  color: #eee;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 2rem;
+  z-index: 101;
+}
+
+@media (max-width: 1000px) {
+
+    .logotipo {
+        width: 100px;
+        margin-left: 6rem;
+    }
+    
+    .navList {
+        margin-left: 15%;
+    }  
+}
+
+@media (max-width: 800px) {
+
+  .menuToggle {
+    display: block;
+  }
+
+  
+  .navBar {
+    height: 70px;
+  }
+  
+
+  .navList {
+    position: fixed;
+    top: 71px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background: linear-gradient(135deg, #020308, #071320);
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    transform: translateY(-200%);
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+    margin-left: 0;
+    padding-left: 2rem;
+    border-radius: 10px;
+  }
+
+  .navList.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .navLi {
+    font-size: 20px;
+    margin: 20px 0;
+    border-bottom: #0072ff 1px solid;
+    width: 100%;
+  }
+
+  .logotipo {
+    margin-left: 4rem;
+    width: 90px;
+  }
+
+  .borde_bottom {
+    top: 70px;
+    }
+
+}
+
+
+@media (max-width: 460px) {
+    
+    .navBar {
+      height: 50px;
+    }
+    
+    .navList {
+      top: 51px;
+      height: calc(100vh - 50px);
+    }
+  
+    .navLi {
+      font-size: 18px;
+    }
+  
+    .logotipo {
+      margin-left: 2rem;
+      width: 64px;
+    }
+  
+    .borde_bottom {
+      top: 50px;
+      }
+  
 }

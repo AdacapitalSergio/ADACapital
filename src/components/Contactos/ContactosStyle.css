@@ -6,7 +6,7 @@
 .contact-container {
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 2rem;
     background: #0a0a0a;
     color: #fff;
     border-radius: 10px;
@@ -65,7 +65,7 @@
 }
 
 .ul-icon li {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-left: 1.6%; 
 }
 
@@ -76,4 +76,81 @@
 
 .ul-icon li a:hover {
     color: #0072ff;
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        width: 75%;
+        margin: 50px auto;
+        padding: 2rem;
+        background: #0a0a0a;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 114, 255, 0.3);
+    }
+    
+    .contact-container h2 {
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin-bottom: 20px;
+        color: #0072ff;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px;
+        border-radius: 8px;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .contact-item:hover {
+        transform: scale(1.05);
+    }
+    
+    .contact-icon {
+        font-size: 18px;
+        color: #0072ff;
+    }
+    
+    .contact-item h3 {
+        margin: 0;
+        font-size: 1rem;
+        color: #bbb;
+    }
+    
+    .contact-item p {
+        margin: 5px 0;
+        font-size: 0.8rem;
+        color: #ddd;
+    }
+    
+    .ul-icon {
+        list-style: none;
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    
+    .ul-icon li {
+        font-size: 1rem;
+        margin-left: 1.6%; 
+    }
+    
+    .ul-icon li a {
+        color: #fff;
+        transition: all 0.5s;
+    }
+    
+    .ul-icon li a:hover {
+        color: #0072ff;
+    }
 }

@@ -30,10 +30,11 @@ export default function Contacto() {
                         <FaEnvelope className="contact-icon" />
                         <div>
                             <h3>Email</h3>
-                            <p>contacto@adacapital.ao</p>
+                            <p>comercial@adacapital.ao</p>
                         </div>
                     </div>
                 </div>
+                {/* 
                 <ul className="ul-icon">
                     <li>
                         <a href="/#" target="_blank" rel="noopener noreferrer">
@@ -66,6 +67,7 @@ export default function Contacto() {
                         </a>
                     </li>
                 </ul>
+                */}
             </section>
         </main>
     );

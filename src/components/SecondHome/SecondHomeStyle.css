@@ -139,3 +139,158 @@
     right: 10rem;
 }
 
+@media (max-width: 1160px) {
+    
+    .asideLeftSecondHomeP {
+        width: 95%;
+        margin-right: 5%;
+    }
+    
+    .divArticleContent {
+        width: 95%;
+        margin-right: 10%;
+    }
+
+    .articleSecondHome {
+        width: 100%;
+        display: flex;
+        z-index: 100;
+        gap: 8rem;
+        margin: 1em 0 2rem 4%;
+    }
+
+    .spanSecondMain {
+        margin-left: 4rem;
+    }
+
+    .divCircle1,
+    .divCircle2,
+    .divCircle3 {
+        position: absolute;
+        border: #013575 dashed 2px;
+        border-radius: 50%;
+        animation: rotateCircle 200s linear infinite;
+    }
+    
+    .divCircle1 {
+        width: 34rem;
+        height: 34rem;
+        right: 4rem;
+    }
+    
+    .divCircle2 {
+        width: 28rem;
+        height: 28rem;
+        margin-top: 1rem;
+        right: 7rem;
+    }
+    
+    .divCircle3 {
+        width: 22rem;
+        height: 22rem;
+        margin-top: 2rem;
+        right: 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .mainSecondHome {
+        gap: 3rem;
+    }
+    
+    .articleSecondHome {
+        display: table;
+        gap: 6rem;
+        margin: 2rem;
+    }
+    
+    .divtitle {
+        gap: 6px;
+        justify-content: start;
+    }
+    
+    .spanCircle {
+        width: 12px;
+        height: 12px;
+        margin-top: 0.1rem;
+    }
+    
+    .asideLeftSecondHomeH1 {
+        font-size: 1rem;
+        margin-bottom: 1.4rem;  
+    }
+    
+    .asideLeftSecondHomeP {
+        font-size: 1.6rem;
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    
+    .spanSecondMain {
+        margin-left: 0;
+        font-size: 3rem;
+    }
+    
+    .divArticleContent {
+        width: 90%;
+    }
+    
+    .articleSecondMainH2 {
+        margin-left: 0;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .articleSecondMainP {
+        margin-left: 0;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .mainSecondHome {
+        gap: 2rem;
+    }
+    
+    .articleSecondHome {
+        gap: 4rem;
+        margin: 2rem;
+    }
+    
+    .divtitle {
+        gap: 4px;
+    }
+    
+    .spanCircle {
+        width: 10px;
+        height: 10px;
+        margin-top: 0.2rem;
+    }
+    
+    .asideLeftSecondHomeP {
+        font-size: 1.2rem;
+        width: 85%;
+        margin-bottom: 1rem;
+    }
+    
+    .spanSecondMain {
+        font-size: 2rem;
+    }
+    
+    .divArticleContent {
+        width: 85%;
+    }
+    
+    .articleSecondMainH2 {
+        font-size: 1.1rem;
+    }
+    
+    .articleSecondMainP {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
