@@ -1,30 +1,51 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
 
+/* Fonte base */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.seccao {
-  background-color: black;
+
+/* Seções principais */
+.seccao, .seccao1, .seccao2, .seccao3, .seccao4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
   padding: 5rem 2rem;
-
 }
 
+.seccao {
+  background-color: black;
+  height: 70vh;
+}
 
+.seccao1 {
+  background-color: black;
+  margin-top: 100px;
+}
+
+.seccao2 {
+  background-color: #dbdbdb;
+}
+
+.seccao3 {
+  background-color: #ffffff;
+}
+
+.seccao4 {
+  background-color: black;
+  height: 110vh;
+}
+
+/* Texto */
 .texto-branco {
   color: white;
 }
 
-.data {
-  align-self: flex-start;
-  margin-left: 25%;
-  margin-bottom: 2rem;
+.texto-preto {
+  color: #242323;
 }
 
 .texto-verde {
@@ -32,30 +53,37 @@
   font-size: 1rem;
 }
 
-.titulo {
-  align-self: flex-start;
-  margin-left: 25%;
-  margin-bottom: 2rem;
-  max-width: 45rem; 
-  word-wrap: break-word;
-  white-space: normal;
-}
-
 .texto-grande {
   font-size: 3rem;
-  width: 100px;
-
+  max-width: 90%;
+  word-break: break-word;
 }
 
+/* Título e data */
+.titulo,
+.data {
+  align-self: flex-start;
+  margin-left: 16%;
+  margin-bottom: 2rem;
+}
+
+.titulo {
+  max-width: 120rem;
+}
+
+.data {
+  color: #32CD32;
+}
+
+/* Descrição */
 .descricao {
   max-width: 29rem;
-  font-size: 1pt;
-  margin-left: 25%;
- 
-}
-
-.margem-topo {
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-left: 20%;
+  
+  text-justify: inter-word;
+  white-space: normal;
+  letter-spacing: normal;
 }
 
 .texto-medio {
@@ -63,24 +91,172 @@
   line-height: 1.6;
 }
 
-.largura-maxima {
-  max-width: 40rem;
+.margem-topo {
+  margin-top: 1rem;
 }
-.seccao1 {
-  background-color: black;
-  margin-top: 100px;
+
+/* Media queries unificada */
+@media (max-width: 770px) {
+  .data,
+  .titulo,
+  .descricao {
+    margin-left: 8%;
+  }
+
+  .titulo {
+    max-width: 33rem;
+  }
+
+  .descricao {
+    max-width: 28rem;
+    font-size: 1rem;
+  }
+
+  .texto-grande {
+    font-size: 2.5rem;
+    max-width: 90%;
+  }
+
+  .seccao1 {
+    margin-top: 100px;
+  }
+
+  .seccao2 {
+    height: 80vh;
+  }
+
+  .seccao3 {
+    height: 100vh;
+  }
+
+  .seccao4 {
+    height: 140vh;
+    align-items: center;
+  }
 }
-.seccao2 {
-  background-color: #dbdbdb;
- 
+@media (max-width: 450px) {
+  .data,
+  .titulo,
+  .descricao {
+    margin-left: 8%;
+  }
+
+  .titulo {
+    max-width: 33rem;
+  }
+
+  .descricao {
+    max-width: 28rem;
+    font-size: 1rem; /* 1pt é muito pequeno */
+  }
+
+  .texto-grande {
+    font-size: 2.5rem;
+    max-width: 95%;
+  }
+
+  .seccao1 {
+    margin-top: 150px;
+    height: 100vh;
+  }
+
+  .seccao2 {
+    height: 100vh;
+  }
+
+  .seccao3 {
+    height: 100vh;
+  }
+
+  .seccao4 {
+    height: 150vh;
+    align-items: center;
+  }
 }
-.seccao3 {
-  background-color: #ffffff;
+
+@media (max-width: 400px) {
+  .data,
+  .titulo,
+  .descricao {
+    margin-left: 6%;
+  }
+
+  .titulo {
+    max-width: 45rem;
+  }
+
+  .descricao {
+    max-width: 28rem;
+    font-size: 1rem; /* 1pt é muito pequeno */
+  }
+
+  .texto-grande {
+    font-size: 2.5rem;
+    max-width: 99%;
+  }
+
+  .seccao1 {
+    margin-top: 150px;
+    height: 100vh;
+  }
+
+  .seccao2 {
+    height: 100vh;
+  }
+
+  .seccao3 {
+    height: 110vh;
+  }
+
+  .seccao4 {
+    height: 180vh;
+    align-items: center;
+  }
 }
-.seccao4{
-  background-color: black;
-  height: 120vh;
+
+@media (max-width: 350px) {
+  .seccao4 {
+    height: 250vh;
+    align-items: center;
+  }
 }
-.texto-preto {
-  color: #242323;
+
+@media (max-width: 320px) {
+  .data,
+  .titulo,
+  .descricao {
+    margin-left: 8%;
+  }
+
+  .titulo {
+    max-width: 33rem;
+  }
+
+  .descricao {
+    max-width: 28rem;
+    font-size: 1rem; /* 1pt é muito pequeno */
+  }
+
+  .texto-grande {
+    font-size: 2.5rem;
+    max-width: 90%;
+  }
+
+  .seccao1 {
+    margin-top: 150px;
+    height: 100vh;
+  }
+
+  .seccao2 {
+    height: 110vh;
+  }
+
+  .seccao3 {
+    height: 150vh;
+  }
+
+  .seccao4 {
+    height: 250vh;
+    align-items: center;
+  }
 }
