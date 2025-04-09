@@ -17,7 +17,7 @@ export default function Mapa() {
                 <Marker position={position}>
                     <Popup>
                         <FaMapMarkerAlt className="contact-icon" />
-                        <b>Empresa</b><br />
+                        <b>Empresa AdaCapital</b><br />
                         Bairro Senhora do Monte, Lubango - Angola
                     </Popup>
                 </Marker>

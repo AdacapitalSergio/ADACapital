@@ -7,6 +7,11 @@
   font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.mainPespectiva {
+  background-color: #000;
+  margin-top: -8rem;
+}
+
 /* Seções principais */
 .seccao, .seccao1, .seccao2, .seccao3, .seccao4 {
   display: flex;
@@ -19,6 +24,7 @@
 .seccao {
   background-color: black;
   height: 70vh;
+  padding-top: 11rem;
 }
 
 .seccao1 {
@@ -159,6 +165,11 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+  .seccao {
+    padding-top: 4rem;
+  }
+  
+  
   .seccao1 {
     margin-top: 150px;
     height: 100vh;

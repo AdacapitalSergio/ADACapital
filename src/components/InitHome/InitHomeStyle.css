@@ -50,8 +50,8 @@
 
 @media (max-width: 500px) {
     .mainInitHome {
-        height: 70vh;
-        padding-bottom: 2rem;
+        height: 60vh;
+        padding-bottom: 1rem;
     }
     .h1InitHome {
         padding-top: 11rem;
