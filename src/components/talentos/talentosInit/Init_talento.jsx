@@ -5,26 +5,26 @@ import Header from '../../Header/Header'
 export const Init_talento = () => {
   return (
     
-        <div className='talentos-main'>
+        <div className='section talentos-main'>
 
-          <div class="container">
-                <div class="square square-1"></div>
-              <div class="square square-2"></div>
-              <div class="square square-3"></div>
-              <div class="square square-4"></div>
-              <div class="square square-5"></div>
-              <div class="square square-6"></div>
-              <div class="square square-7"></div>
-              <div class="square square-8"></div>
-              <div class="square square-9"></div>
-              <div class="square square-10"></div>
+          <div className="section container">
+                <div className="square square-1"></div>
+              <div className="square square-2"></div>
+              <div className="square square-3"></div>
+              <div className="square square-4"></div>
+              <div className="square square-5"></div>
+              <div className="square square-6"></div>
+              <div className="square square-7"></div>
+              <div className="square square-8"></div>
+              <div className="square square-9"></div>
+              <div className="square square-10"></div>
           </div>  
-              <div className="talento-titulo">
+              <div className="section talento-titulo">
                     <h1 className='h1-talento'>
                       Experiência e recursos para orientar você enquanto constrói uma base sólida.
                     </h1>
               </div>
-              <div className="talento-start">
+              <div className="section talento-start">
                   
                    <div className='start'>
                     <p className="pCircle"></p>

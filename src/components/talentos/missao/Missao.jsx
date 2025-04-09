@@ -4,14 +4,14 @@ import Animacao from '../../Animacao/Animacao'
 
 export const Missao = () => {
   return (
-    <div className='missao-main'>
+    <div className='section missao-main'>
                <Animacao />
-               <div className='missa-titulo'>
+               <div className='section missa-titulo'>
                     <p className="fCircle"></p>
                     <h2 className='h2-cicle'>Nossa  Missão</h2>
                 </div>
 
-                <div className="missao">
+                <div className="section missao">
                     <h1 className='h1-missao'>
                     A ADACapital
                     é especializada em capacitar

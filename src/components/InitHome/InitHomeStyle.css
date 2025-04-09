@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 800px) {
+    .mainInitHome {
+        height: 80vh;
+        padding-bottom: 3rem;
+    }
     .h1InitHome {
         padding-top: 12rem;
         font-size: 2rem;
@@ -45,9 +49,13 @@
 }
 
 @media (max-width: 500px) {
+    .mainInitHome {
+        height: 70vh;
+        padding-bottom: 2rem;
+    }
     .h1InitHome {
         padding-top: 11rem;
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         margin-left: 6%;
         margin-bottom: 4rem;
         width: 90%;

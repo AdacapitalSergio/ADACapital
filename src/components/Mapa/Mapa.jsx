@@ -8,7 +8,7 @@ export default function Mapa() {
     const position = [-14.9186, 13.4925];
 
     return (
-        <div className="section" style={{ width: "100%", height: "100vh" }}>
+        <div className="section" style={{ width: "100%", height: "70vh" }}>
             <MapContainer className="section" center={position} zoom={15} scrollWheelZoom={false} style={{ width: "100%", height: "100%", zIndex: 0 }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

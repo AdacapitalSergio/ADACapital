@@ -104,21 +104,22 @@
 
   .navList {
     position: fixed;
-    top: 71px;
+    top: 0;
     left: 0;
     right: 0;
     width: 100vw;
     height: calc(100vh - 70px);
     background: linear-gradient(135deg, #020308, #071320);
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     transform: translateY(-200%);
     transition: all 0.5s ease-in-out;
     pointer-events: none;
     margin-left: 0;
     padding-left: 2rem;
-    border-radius: 10px;
+    padding-top: 6rem;
+    z-index: -1;
   }
 
   .navList.open {
@@ -129,7 +130,7 @@
 
   .navLi {
     font-size: 20px;
-    margin: 20px 0;
+    margin: 4rem 0;
     border-bottom: #0072ff 1px solid;
     padding-bottom: 4px;
     width: 100%;
@@ -142,6 +143,7 @@
 
   .borde_bottom {
     top: 70px;
+    z-index: 100;
     }
 
 }
@@ -154,8 +156,9 @@
     }
     
     .navList {
-      top: 51px;
+      top: 0;
       height: calc(100vh - 50px);
+      z-index: -1;
     }
   
     .navLi {
@@ -169,6 +172,7 @@
   
     .borde_bottom {
       top: 50px;
+      z-index: 100;
       }
   
 }

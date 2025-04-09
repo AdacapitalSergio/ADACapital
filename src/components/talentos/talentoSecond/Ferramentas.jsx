@@ -3,15 +3,15 @@ import "./ferramentas.css"
 
 export const Ferramentas = () => {
   return (
-    <div className='section ferramenta-main'>
+    <section className='section ferramenta-main'>
 
-                <div className='ferrament-titulo'>
+                <div className='section ferrament-titulo'>
                     <p className="fCircle"></p>
                     <h2>Nossa ferramentas</h2>
                 </div>
 
-                <div className="itens-ferramentas">
-                    <div className="itens">
+                <div className="section itens-ferramentas">
+                    <div className="section itens">
                         <span className='numero-f'>01</span>
                         <article>
                             <h1 className='h1-ferramenta'>Fornecimento</h1>
@@ -22,7 +22,7 @@ export const Ferramentas = () => {
                             </p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>02</span>
                         <article>
                             <h1 className='h1-ferramenta'>Networking</h1>
@@ -31,7 +31,7 @@ export const Ferramentas = () => {
                              desde conselheiros e consultores em estágio inicial até futuros membros do conselho.</p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>03</span>
                         <article>
                             <h1 className='h1-ferramenta'>Recrutamento Executivo</h1>
@@ -41,7 +41,7 @@ export const Ferramentas = () => {
                             </p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>04</span>
                         <article>
                             <h1 className='h1-ferramenta'>Processo de Entrevista</h1>
@@ -51,7 +51,7 @@ export const Ferramentas = () => {
                             </p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>05</span>
                         <article>
                             <h1 className='h1-ferramenta'>Ofertas</h1>
@@ -61,7 +61,7 @@ export const Ferramentas = () => {
                             </p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>06</span>
                         <article>
                             <h1 className='h1-ferramenta'>Compensação</h1>
@@ -70,7 +70,7 @@ export const Ferramentas = () => {
                              até a centésima e traremos os recursos certos na hora certa para ajudar você a fechar com os melhores candidatos.       </p>
                         </article>
                     </div>
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>07</span>
                         <article>
                             <h1 className='h1-ferramenta'>Integração</h1>
@@ -80,7 +80,7 @@ export const Ferramentas = () => {
                         </article>
                     </div>
 
-                    <div className="itens">
+                    <div className="section itens">
                         <span className='numero-f'>08</span>
                         <article>
                             <h1 className='h1-ferramenta'>Sistemas de Rastreamento de Candidatos</h1>
@@ -91,6 +91,6 @@ export const Ferramentas = () => {
                     </div>
                 </div>
 
-    </div>
+    </section>
   )
 }

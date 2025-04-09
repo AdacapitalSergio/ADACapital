@@ -3,8 +3,8 @@ import "./pespectivaStyle.css";
 
 const Pespectiva = () => {
     return (
-        <main className="mainPespectiva">
-            <section className="seccao seccao1 texto-branco">
+        <main className="section mainPespectiva">
+            <section className="section seccao seccao1 texto-branco">
                 <div className="data">
                     <p className="texto-verde">Março, 2020</p>
                 </div>
@@ -22,7 +22,7 @@ const Pespectiva = () => {
                 </div>
             </section>
             
-            <section className="seccao seccao2 texto-preto ">
+            <section className="section seccao seccao2 texto-preto ">
                 <div className="data">
                     <p className="texto-verde">Janeiro, 2020</p>
                 </div>
@@ -41,7 +41,7 @@ const Pespectiva = () => {
                 </div>
             </section>
             
-            <section className="seccao seccao3  texto-preto ">
+            <section className="section seccao seccao3  texto-preto ">
                 <div className="data">
                     <p className="texto-verde">Setembro, 2019 </p>
                 </div>
@@ -61,7 +61,7 @@ const Pespectiva = () => {
                 </div>
             </section>
 
-            <section className="seccao seccao4  texto-branco ">
+            <section className="section seccao seccao4  texto-branco ">
                 <div className="data">
                     <p className="texto-verde">Novembro, 2018</p>
                 </div>
