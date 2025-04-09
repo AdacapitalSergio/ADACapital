@@ -54,7 +54,7 @@
 }
 
 .loginBorder:hover {
-    border: #0072ff solid 2px;
+    color: #0072ff;
 }
 
 .borde_bottom {
@@ -131,6 +131,7 @@
     font-size: 20px;
     margin: 20px 0;
     border-bottom: #0072ff 1px solid;
+    padding-bottom: 4px;
     width: 100%;
   }
 

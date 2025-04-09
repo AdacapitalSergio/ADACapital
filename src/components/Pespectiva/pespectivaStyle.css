@@ -151,10 +151,14 @@
   }
 
   .texto-grande {
-    font-size: 2.5rem;
+    font-size: 2rem;
     max-width: 95%;
   }
 
+  .texto-medio {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
   .seccao1 {
     margin-top: 150px;
     height: 100vh;
@@ -191,7 +195,7 @@
   }
 
   .texto-grande {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     max-width: 99%;
   }
 
@@ -238,7 +242,7 @@
   }
 
   .texto-grande {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     max-width: 90%;
   }
 
