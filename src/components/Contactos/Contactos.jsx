@@ -34,40 +34,28 @@ export default function Contacto() {
                         </div>
                     </div>
                 </div>
-                {/* 
                 <ul className="ul-icon">
                     <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/share/159DwpJxmm/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
                             <FaFacebook />
                         </a>
                     </li>
                     <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/adacapital_angola?igsh=MXFicGppejJ2dmh6cA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </li>
                     <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <FaYoutube />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
+                        <a href="/contactos" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
                     </li>
                     <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <FaTiktok />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
+                        <a href="/contactos" target="_blank" rel="noopener noreferrer">
                             <BsTwitterX />
                         </a>
                     </li>
                 </ul>
-                */}
             </section>
         </main>
     );
