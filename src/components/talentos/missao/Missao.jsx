@@ -15,7 +15,7 @@ export const Missao = () => {
                     <h1 className='h1-missao'>
                     A ADACapital
                     é especializada em capacitar
-                    nossos empreendedores para construir uma
+                    empreendedores para construir uma
                     infraestrutura sólida por meio da
                     integração de processos e
                     estratégias de crescimento diferenciadas para
@@ -25,7 +25,7 @@ export const Missao = () => {
 
                    <p className='p-missao'>
                     Nosso objetivo é fazer parceria com nossos fundadores
-                    para ajudá-los a crescer de forma rápida e bem-sucedida em todas as fases de sua jornada.   
+                    para ajudá-los a crescer de forma rápida e bem-sucedida em todas as fases da sua jornada.   
                   </p>
                 </div>
 

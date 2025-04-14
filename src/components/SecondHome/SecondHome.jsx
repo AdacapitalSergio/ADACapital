@@ -63,7 +63,7 @@ export default function SecondHome() {
                     <p className="articleSecondMainP">
                         O maior desafio que as empresas em fase inicial enfrentam é estabelecer uma 
                         base para crescer que se baseie no ADN único da empresa. Nossos Talent 
-                        Partners em tempo integral construíram os sistemas no Google e em outras 
+                        Partners em tempo integral construíram os sistemas na MarolDep e em outras 
                         startups, e podem fazer isso por você.
                     </p>
                 </div>

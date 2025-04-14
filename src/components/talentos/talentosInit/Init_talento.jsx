@@ -37,7 +37,7 @@ export const Init_talento = () => {
                         </h1>
                         <p className='p-talento'>
                           Trabalharemos com você para construir práticas estratégicas e eficientes que produzam resultados, ao mesmo 
-                          tempo em que levamos em conta a necessidade de planejar a escala futura. Entendemos que você precisa construir
+                          tempo em que levamos em conta a necessidade de planear a escala futura. Entendemos que você precisa construir
                           o que é certo para você, na hora certa, para sua empresa.
                         </p>
 

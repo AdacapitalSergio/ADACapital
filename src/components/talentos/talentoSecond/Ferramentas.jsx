@@ -14,11 +14,11 @@ export const Ferramentas = () => {
                     <div className="section itens">
                         <span className='numero-f'>01</span>
                         <article>
-                            <h1 className='h1-ferramenta'>Fornecimento</h1>
+                            <h1 className='h1-ferramenta'>Sourcing</h1>
                             <p className='p-ferramenta'>
                             Encontrar os candidatos certos é essencial. 
                             Saber onde encontrá-los por meio de estratégias criativas de sourcing é apenas o começo. 
-                            A.Capital trabalhará com você para implementar as ferramentas de sourcing certas em cada estágio do seu crescimento.
+                            ADACapital trabalhará com você para implementar as ferramentas de sourcing certas em cada estágio do seu crescimento.
                             </p>
                         </article>
                     </div>
