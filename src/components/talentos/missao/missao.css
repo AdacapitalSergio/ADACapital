@@ -11,6 +11,9 @@
     display: flex;
     gap: 1rem;
 }
+.fCircle{
+    margin-left: 1rem;
+}
 
 .missao{
     padding: 0rem 10rem 10rem 10rem;

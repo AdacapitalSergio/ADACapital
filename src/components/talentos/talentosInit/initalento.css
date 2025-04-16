@@ -1,6 +1,7 @@
 .talentos-main{
     background: linear-gradient(135deg, #020308, #071320);
     padding-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -212,7 +213,35 @@
 }
 
 
-@media (max-width: 471px) {
+@media (max-width: 500px) {
+
+    .talento-titulo{
+        padding: 7rem 3rem 0rem 5rem;
+        font-size: 0.8rem;
+    
+}
+
+.start{
+    width: 100%;
+
+}
+    .talento-start{
+        display: grid;
+        padding: 4rem 1rem 0rem 5rem;
+        gap: 1rem;
+    }
+
+    .start2{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .start2 .h1-talento{
+        font-size: 1.5rem;
+     }
+}
+
+
+@media (max-width: px) {
 
     .talento-titulo{
         padding: 10rem 3rem 0rem 5rem;
