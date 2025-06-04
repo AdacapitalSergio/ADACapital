@@ -16,34 +16,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
 }
 
 .seccao {
   background-color: black;
-  height: 72vh;
+  height: auto;
 }
 
 .seccao1 {
   background-color: black;
   margin-top: 100px;
-  padding-top: 9rem;
+  padding-top: 12rem;
 }
 
 .seccao2 {
   background-color: #dbdbdb;
-  padding-top: 2rem;
 }
 
 .seccao3 {
   background-color: #ffffff;
-  padding-top: 4rem;
 }
 
 .seccao4 {
   background-color: black;
-  height: 110vh;
-  padding-top: 4rem;
 }
 
 .texto-branco {
@@ -124,16 +120,7 @@
     margin-top: 100px;
   }
 
-  .seccao2 {
-    height: 80vh;
-  }
-
-  .seccao3 {
-    height: 100vh;
-  }
-
   .seccao4 {
-    height: 140vh;
     align-items: center;
   }
 }
@@ -170,25 +157,13 @@
     padding: 1rem 2rem;
   }
   .seccao {
-    padding-top: 4rem;
+    padding-top: 2.4rem;
   }
-  
-  
   .seccao1 {
     margin-top: 150px;
-    height: 100vh;
-  }
-
-  .seccao2 {
-    height: 100vh;
-  }
-
-  .seccao3 {
-    height: 100vh;
   }
 
   .seccao4 {
-    height: 150vh;
     align-items: center;
   }
 }
@@ -216,26 +191,14 @@
 
   .seccao1 {
     margin-top: 150px;
-    height: 100vh;
   }
-
-  .seccao2 {
-    height: 100vh;
-  }
-
-  .seccao3 {
-    height: 110vh;
-  }
-
   .seccao4 {
-    height: 180vh;
     align-items: center;
   }
 }
 
 @media (max-width: 350px) {
   .seccao4 {
-    height: 250vh;
     align-items: center;
   }
 }
@@ -261,21 +224,7 @@
     max-width: 90%;
   }
 
-  .seccao1 {
-    margin-top: 150px;
-    height: 100vh;
-  }
-
-  .seccao2 {
-    height: 110vh;
-  }
-
-  .seccao3 {
-    height: 150vh;
-  }
-
   .seccao4 {
-    height: 250vh;
     align-items: center;
   }
 }
