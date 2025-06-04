@@ -22,7 +22,7 @@ export default function Contacto() {
                         <FaPhone className="contact-icon" />
                         <div>
                             <h3>Telefone</h3>
-                            <p>(+244) 929 740 455</p>
+                            <p>(+244) 928 004 404</p>
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ export default function Contacto() {
                     </li>
                     <li>
                         <a href="/contactos" target="_blank" rel="noopener noreferrer">
-                            <BsTwitterX />
+                            <FaYoutube />
                         </a>
                     </li>
                 </ul>

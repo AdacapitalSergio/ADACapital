@@ -7,7 +7,7 @@ export const Ferramentas = () => {
 
                 <div className='section ferrament-titulo'>
                     <p className="fCircle"></p>
-                    <h2>Nossa ferramentas</h2>
+                    <h2>Nossas ferramentas</h2>
                 </div>
 
                 <div className="section itens-ferramentas">
