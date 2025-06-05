@@ -24,7 +24,7 @@ export const Missao = () => {
                     </h1>
 
                    <p className='p-missao'>
-                    Nosso objetivo é fazer parceria com nossos fundadores
+                    Nosso objectivo é fazer parceria com nossos fundadores
                     para ajudá-los a crescer de forma rápida e bem-sucedida em todas as fases da sua jornada.   
                   </p>
                 </div>
